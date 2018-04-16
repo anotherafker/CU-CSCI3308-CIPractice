@@ -1,3 +1,4 @@
+
 # Andy Sayler
 # CI Practice
 # Summer 2014
@@ -29,3 +30,6 @@ clean:
 	$(RM) *.o
 	$(RM) geometry_test
 	$(RM) *~
+
+test: geometry_test
+	./geometry_test
